@@ -9,11 +9,11 @@
 
 # Usage example:
 # > source('cachematrix.R')
-# > m <- makeCacheMatrix(matrix(c(3, 0, 0, 5), c(2, 2)))
+# > m <- makeCacheMatrix(matrix(c(2, 0, 0, 4), c(2, 2)))
 # > cacheSolve(m)
 # [,1] [,2]
-# [1,]  0.5  0.0
-# [2,]  0.0  0.5
+# [1,]  0.5 0.00
+# [2,]  0.0 0.25
 
 # This function creates a special "matrix" object that can cache its inverse.
 
